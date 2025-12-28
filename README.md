@@ -1,6 +1,8 @@
-# KMPSHAREDPREF
+# KmpSharedPref
 
-Kotlin Multiplatform library to simplify working with **SharedPreferences** on Android and **UserDefaults** on iOS in a multiplatform project.
+Save primitive values effortlessly across Android & iOS!
+One simple, unified API for SharedPreferences (Android) and UserDefaults (iOS).
+Lightweight Kotlin Multiplatform library – write once, persist anywhere. 🚀
 
 ---
 
@@ -18,7 +20,7 @@ repositories {
 Add the dependency in your `commonMain` source set:
 
 ```kotlin
-oimplementation("io.github.shahzaibali02:kmpsharedpref:1.0.3")
+implementation("io.github.shahzaibali02:kmpsharedpref:1.0.3")
 ```
 
 ---
@@ -84,6 +86,11 @@ fun getFloat(key: String, defaultValue: Float = 0.0f): Float
 ```
 
 ---
+
+### 6️⃣ Screenshots
+
+![App Screenshot ](ss2.png)
+
 
 ## Features
 
