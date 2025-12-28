@@ -12,6 +12,14 @@ class IOSSharedPref(suiteName: String? = null) : LocalSharedPref {
         defaults.setObject(value, key)
     }
 
+
+    override fun saveFloat(key: String, value: Float) {
+        defaults.setFloat(value, key)
+    }
+    override fun getFloat(key: String, defaultValue: Float): Float {
+        return defaults.floatForKey(key)
+    }
+
     override fun saveInt(key: String, value: Int) {
         defaults.setInteger(value.toLong(), key)
     }

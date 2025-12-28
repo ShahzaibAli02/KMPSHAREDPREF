@@ -15,6 +15,11 @@ class AndroidSharedPref(
     override fun saveLong(key: String, value: Long) = prefs.edit().putLong(key, value).apply()
     override fun saveBool(key: String, value: Boolean) = prefs.edit().putBoolean(key, value).apply()
 
+
+    override fun saveFloat(key: String, value: Float) = prefs.edit().putFloat(key, value).apply()
+
+    override fun getFloat(key: String, defaultValue: Float): Float = prefs.getFloat(key, defaultValue)
+
     override fun getString(key: String, defaultValue: String): String =
         prefs.getString(key, defaultValue) ?: defaultValue
 

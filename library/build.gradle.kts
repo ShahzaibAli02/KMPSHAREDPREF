@@ -14,8 +14,10 @@ signing {
     sign(publishing.publications)
 }
 group = "io.github.shahzaibali02"
-version = "1.0.2"
+version = "1.0.3"
 
+// export GPG_TTY=$(tty)
+// ./gradlew publishToMavenCentral
 kotlin {
 //    jvm()
     androidLibrary {

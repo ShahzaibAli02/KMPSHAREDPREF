@@ -4,6 +4,9 @@ interface LocalSharedPref {
     fun saveLong(key: String, value: Long)
     fun saveBool(key: String, value: Boolean)
 
+
+    fun saveFloat(key : String, value: Float)
+    fun getFloat(key: String, defaultValue: Float = 0.0f) : Float
     fun getString(key: String, defaultValue: String = ""): String
     fun getInt(key: String, defaultValue: Int = 0): Int
     fun getLong(key: String, defaultValue: Long = 0L): Long
