@@ -18,7 +18,7 @@ repositories {
 Add the dependency in your `commonMain` source set:
 
 ```kotlin
-oimplementation("io.github.shahzaibali02:kmpsharedpref:1.0.2")
+oimplementation("io.github.shahzaibali02:kmpsharedpref:1.0.3")
 ```
 
 ---
