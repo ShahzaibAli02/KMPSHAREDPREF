@@ -1,0 +1,16 @@
+*.iml
+*.key
+*.asc
+.gradle
+.idea
+.DS_Store
+build
+captures
+.externalNativeBuild
+.cxx
+local.properties
+xcuserdata
+gradle.properties
+.kotlin
+#So we don't accidentally commit our private keys
+*.gpg
